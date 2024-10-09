@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{                      /*no CSS isso significa uma configuração global*/
+            height: 100%;
+        }
+        body{
+            background-image:  linear-gradient(to bottom,#844AD1,#A748AE,#C29FB3,#CF7098,#EF6C58,#F19C4B);
+            background-attachment: fixed;   /* para o degrade não rolar na página */
+        }
+        section{
+            background-image:  linear-gradient(to bottom,#844AD1,#A748AE,#C29FB3,#CF7098);
+            background-attachment: fixed;
+            width:300px ;
+            height:200px ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+    <section>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>

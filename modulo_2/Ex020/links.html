@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* As pseudo classes estão relacionadas ao estado do elemnte*/
+        /* os pseudo elementos mechem diretamente com um conteudo periferico do elemento*/
+        /*     classe   .                
+               id       #   
+               pseudo classes  : 
+               pseudo elemnto  ::  */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+        a:visited{
+            color: blueviolet;
+            
+        }
+        a:hover{
+            color:rgb(100, 0, 0);
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(189, 189, 6);
+        }
+        a::before{
+            content: '=>';
+            color: brown;
+        }
+        a::after{
+            content: ' [link]';
+            color: rgb(88, 88, 88)
+        }
+        .exp{
+            background-color: rgba(255, 28, 141, 0.568);
+        }
+        .exp::after{
+            content: '<=';
+            color: brown;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="externd">Repositorio do Github</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="externd" >Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" class="exp" target="_blank" rel="externd">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

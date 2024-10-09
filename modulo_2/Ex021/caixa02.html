@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgba(255, 179, 171, 0.678);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(209, 39, 39);
+            margin: 10px;
+            box-shadow: 12px 7px 10px 1px rgba(0, 0, 0, 0.541);
+        }
+        nav>a{
+            text-decoration: none;
+            font: italic bold 20px arial;
+            color: white;
+            margin: 10px;
+        }
+        nav>a:hover{
+            background-color: blueviolet;
+            color: rgb(27, 185, 40);
+        }
+        header{
+            background-color: rgba(236, 236, 33, 0.349);
+            margin: 10px;
+        }
+        main{
+            background-color: rgba(236, 236, 33, 0.349);
+            padding: 13px;
+            margin: 10px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 33px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 33px;
+        }
+        footer{
+            background-color: gray;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer>p{
+            color:white ;
+            font-size: small;
+            margin: 0px;
+        }
+        #noticias{
+            background-color: rgba(128, 128, 128, 0.425);
+            margin: 1px;
+            padding: 1px;
+            border-radius: 5px;
+        }
+        aside>p{
+            background-color:rgba(128, 128, 128, 0.63);
+            margin: 0px;
+            border-radius: 5px;
+        }
+        #bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 100px;
+
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Texte de síte</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Mais um teste</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Desenvolvimento do conteudo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sapiente voluptates odit? Qui consequuntur corporis minima nulla distinctio, quam quod sed amet similique blanditiis numquam iusto atque natus cumque? Obcaecati.</p>
+                <aside>
+                    <p>todos os direitos reservados </p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Produsido pelo curso em Vídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

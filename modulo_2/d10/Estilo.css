@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(128, 128, 128, 0.486);
+    
+}
+    
+
+header{
+    background-image: linear-gradient(to bottom,#269756,#084B25,#043D1B);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    width:400px ;
+    
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: auto;
+}
+header>p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+p{
+    text-align: justify;
+    text-indent: 2em;
+}
+nav{
+    background-color:#043D1B;
+}
+a{
+    font-size:16px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background-color: #043D1B;
+    padding: 1px;
+    margin: 0px;
+}
+a:hover{
+    background-color: #269756 ;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1400px;
+    margin: auto;
+}
+@font-face{
+    font-family: 'android';
+    src: url('idroid.otf') format('opentype');
+}
+.fonte{
+    color:#026625;
+    font-size: 30px;
+    font-family: android;
+    font-weight: normal;
+}
+article>h3{
+    background-color: #09df625e;
+    color: #077031;
+    font-family:android ;
+    min-width:300px ;
+}
+section{
+    padding: 18px;
+}
+.video{
+    margin: 0px;
+    width: 970px;
+    height: 236px;
+    padding: 0px;
+    
+}
+main img{
+    margin: auto;
+    display: block;
+    
+}
